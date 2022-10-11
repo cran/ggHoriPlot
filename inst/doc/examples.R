@@ -101,7 +101,7 @@ rmsk %>%
 
 
 ## ----fig.height=15, fig.width=6-----------------------------------------------
-library(ggh4x)
+
 
 utils::data(climate_US)
 
@@ -111,7 +111,7 @@ climate_US %>%
   geom_horizon(aes(date_mine, 
                    AvgTemperature), rm.outliers = T) +
   scale_fill_hcl(palette = 'RdBu', reverse = T) +
-  facet_nested(State+City~.) +
+  facet_grid(State+City~.) +
   theme_bw() +
   theme(
     panel.spacing.y=unit(0, "lines"),

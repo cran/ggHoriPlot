@@ -1,22 +1,32 @@
 
-# ggHoriPlot: build horizon plots in ggplot2 <img src='man/images/sticker_ggHoriPlot.png' align="right" height="180" >
+# ggHoriPlot: horizon plots in ggplot2 <img src='man/images/sticker_ggHoriPlot.png' align="right" height="180" >
 
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/rivasiker/ggHoriPlot/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/rivasiker/ggHoriPlot/actions/workflows/check-standard.yaml)
-[![codecov](https://codecov.io/gh/rivasiker/ggHoriPlot/branch/master/graph/badge.svg?token=8V5E63YVM2)](https://codecov.io/gh/rivasiker/ggHoriPlot)
+[![CRAN](https://www.r-pkg.org/badges/version/ggHoriPlot)](https://CRAN.R-project.org/package=ggHoriPlot)
+[![downloads](https://cranlogs.r-pkg.org/badges/grand-total/ggHoriPlot)](https://CRAN.R-project.org/package=ggHoriPlot)
+[![codecov](https://codecov.io/gh/rivasiker/ggHoriPlot/branch/master/graph/badge.svg?token=8V5E63YVM2)](https://app.codecov.io/gh/rivasiker/ggHoriPlot)
 <!-- badges: end -->
 
 This package allows building horizon plots in ggplot2. You can learn
-more about the package in `vignette('ggHoriPlot')`
+more about the package in `vignette("ggHoriPlot")`.
 
 ## Installation
 
-You can install `ggHoriPlot` from CRAN using
-`install.packages("ggHoriPlot")`. You can also install the development
-version of the package with the following command:
+You can install `ggHoriPlot` from CRAN via:
 
-    devtools::install_github("rivasiker/ggHoriPlot")
+``` r
+install.packages("ggHoriPlot")
+```
+
+You can also install the development version of the package from GitHub
+with the following command:
+
+``` r
+#install.packages("devtools")
+devtools::install_github("rivasiker/ggHoriPlot")
+```
 
 ## Basic example
 
